@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Luma is an AI-powered second-hand marketplace app built with Flutter, Firebase, Mapbox and OpenAI."
+    >
+    <title>Luma - AI Resale Marketplace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,750&family=Manrope:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Luma home">
+        <img src="assets/luma_app_icon.png" alt="Luma app icon">
+        <span>Luma</span>
+      </a>
+      <nav aria-label="Landing page sections">
+        <a href="#problem">Problem</a>
+        <a href="#features">Features</a>
+        <a href="#demo">Demo</a>
+        <a href="#tech">Tech</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell">
+        <div class="hero-copy">
+          <p class="eyebrow">CASA0015 Mobile Systems & Interactions</p>
+          <h1>Sell second-hand items faster with AI, location and real-time chat.</h1>
+          <p class="hero-text">
+            Luma is a Flutter marketplace prototype that removes the hardest parts
+            of resale: identifying an item, estimating a fair price, writing a listing
+            and showing buyers where nearby products are available.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button primary" href="#demo">Watch app flow</a>
+            <a class="button secondary" href="#tech">View architecture</a>
+          </div>
+          <div class="metric-row" aria-label="Project highlights">
+            <span><strong>Flutter</strong> iOS app</span>
+            <span><strong>Firebase</strong> backend</span>
+            <span><strong>OpenAI</strong> valuation</span>
+          </div>
+        </div>
+
+        <div class="phone-stage" aria-label="Luma product interface preview">
+          <div class="phone-frame">
+            <div class="phone-status">
+              <span>11:41</span>
+              <span class="status-icons">5G 100%</span>
+            </div>
+            <div class="app-topbar">
+              <div>
+                <span class="muted">Nearby</span>
+                <h2>Camden finds</h2>
+              </div>
+              <span class="pill">AI priced</span>
+            </div>
+            <div class="listing-card">
+              <div class="listing-image keyboard"></div>
+              <div>
+                <h3>Razer keyboard</h3>
+                <p>Lightly used, checked by AI</p>
+                <strong>£72</strong>
+              </div>
+            </div>
+            <div class="map-card">
+              <div class="map-pin pin-a">£45</div>
+              <div class="map-pin pin-b">£120</div>
+              <div class="map-pin pin-c">£68</div>
+              <span>Map view for similar items</span>
+            </div>
+            <div class="ai-panel">
+              <span>AI draft</span>
+              <p>Brand, model, condition, title and price range generated from photos.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="problem" class="problem section-shell">
+        <div class="section-heading">
+          <p class="eyebrow">Problem statement</p>
+          <h2>Resale apps work well for buyers, but listing items is still slow.</h2>
+        </div>
+        <div class="problem-grid">
+          <article>
+            <span class="number">01</span>
+            <h3>Users do not know what they own</h3>
+            <p>Brand, model and condition are often unclear from memory, especially for electronics and accessories.</p>
+          </article>
+          <article>
+            <span class="number">02</span>
+            <h3>Pricing is uncertain</h3>
+            <p>Many sellers either underprice valuable items or overprice listings that never sell.</p>
+          </article>
+          <article>
+            <span class="number">03</span>
+            <h3>Publishing takes too many steps</h3>
+            <p>Writing titles, descriptions, tags and location details creates friction before an item reaches buyers.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="features" class="features section-shell">
+        <div class="section-heading compact">
+          <p class="eyebrow">Core experience</p>
+          <h2>From camera to marketplace in one guided flow.</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card accent-teal">
+            <h3>AI recognition</h3>
+            <p>Upload one or multiple item photos. Luma detects possible product categories, brands, models and condition.</p>
+          </article>
+          <article class="feature-card accent-sun">
+            <h3>AI valuation</h3>
+            <p>The backend combines image context, user corrections and UK market research to suggest a price range.</p>
+          </article>
+          <article class="feature-card accent-rose">
+            <h3>Nearby map discovery</h3>
+            <p>Buyers can search for items and open a map view that shows nearby product photos and prices.</p>
+          </article>
+          <article class="feature-card accent-ink">
+            <h3>Trading workflow</h3>
+            <p>Firebase powers authentication, listings, favourites, browsing history, chat and seller item management.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="demo" class="demo section-shell">
+        <div class="demo-card">
+          <div>
+            <p class="eyebrow">Demo video / GIF</p>
+            <h2>Assessment-ready app walkthrough</h2>
+            <p>
+              Replace this panel with a video or GIF under 3 minutes. The recommended
+              recording flow is login, browse, search, map, camera upload, AI recognition,
+              AI price estimate, publish, chat and manage listing.
+            </p>
+          </div>
+          <div class="video-placeholder" role="img" aria-label="Demo video placeholder">
+            <span class="play-symbol"></span>
+            <strong>Demo video placeholder</strong>
+            <small>Max 3 minutes for the presentation requirement</small>
+          </div>
+        </div>
+      </section>
+
+      <section id="tech" class="tech section-shell">
+        <div class="section-heading compact">
+          <p class="eyebrow">Technical integration</p>
+          <h2>Mobile sensors, cloud data and external services work together.</h2>
+        </div>
+        <div class="architecture">
+          <article>
+            <span>01</span>
+            <h3>Flutter iOS client</h3>
+            <p>Cupertino-style mobile UI, camera flow, GPS location selection, map exploration and bilingual interface.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Firebase backend</h3>
+            <p>Authentication, Firestore collections, Storage image uploads and Cloud Functions for server logic.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>OpenAI analysis</h3>
+            <p>Vision and language prompts generate product drafts, identify multiple items and estimate UK resale price.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Mapbox location layer</h3>
+            <p>Listings can be published with GPS coordinates and explored through a nearby product map.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="journey section-shell">
+        <div class="section-heading">
+          <p class="eyebrow">User journey</p>
+          <h2>A seller can move from uncertainty to a publishable listing.</h2>
+        </div>
+        <ol class="journey-list">
+          <li>Capture or upload item photos on a physical iPhone.</li>
+          <li>Confirm AI recognition results and correct category, brand, model or condition.</li>
+          <li>Use GPS or manual map selection to add the listing location.</li>
+          <li>Generate a UK resale price estimate and choose the final asking price.</li>
+          <li>Publish to Firestore, then manage the item from the profile page.</li>
+        </ol>
+      </section>
+
+      <section class="closing section-shell">
+        <div>
+          <p class="eyebrow">Future work</p>
+          <h2>What would improve with more time?</h2>
+        </div>
+        <p>
+          Stronger trust and safety checks, verified payments, richer item authenticity
+          workflows, improved price evidence display and a larger user testing cycle.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Luma / 物光</span>
+      <span>Flutter + Firebase + Mapbox + OpenAI</span>
+    </footer>
+  </body>
+</html>

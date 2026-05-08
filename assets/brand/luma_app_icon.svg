@@ -1,0 +1,47 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1024" height="1024" fill="#0C2023"/>
+  <rect width="1024" height="1024" fill="url(#bgGlow)" opacity="0.92"/>
+  <circle cx="214" cy="184" r="240" fill="#164950" opacity="0.46"/>
+  <circle cx="810" cy="808" r="300" fill="#061316" opacity="0.72"/>
+  <path d="M284 366C284 335.072 309.072 310 340 310H436C459.42 310 479.989 325.421 486.602 347.894L499.924 393.17C506.537 415.643 527.106 431.064 550.526 431.064H684C714.928 431.064 740 456.136 740 487.064V648C740 678.928 714.928 704 684 704H340C309.072 704 284 678.928 284 648V366Z" stroke="#F7F4E8" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="514" cy="574" r="116" fill="#0B1B1E" stroke="url(#lensRing)" stroke-width="34"/>
+  <circle cx="514" cy="574" r="58" fill="#12373B"/>
+  <circle cx="668" cy="514" r="22" fill="#F7F4E8"/>
+  <g filter="url(#tagShadow)">
+    <path d="M641.498 604.687C641.498 586.027 656.625 570.9 675.285 570.9H779.527C791.758 570.9 803.036 577.513 809.012 588.184L876.708 709.071C884.297 722.622 881.562 739.63 870.08 750.087L760.613 849.788C747.737 861.514 728.087 861.77 714.91 850.383L605.847 756.147C592.968 745.019 590.288 726.018 599.594 711.761L635.997 655.994C639.587 650.493 641.498 644.066 641.498 637.499V604.687Z" fill="url(#tagFill)"/>
+    <path d="M641.498 604.687C641.498 586.027 656.625 570.9 675.285 570.9H779.527C791.758 570.9 803.036 577.513 809.012 588.184L876.708 709.071C884.297 722.622 881.562 739.63 870.08 750.087L760.613 849.788C747.737 861.514 728.087 861.77 714.91 850.383L605.847 756.147C592.968 745.019 590.288 726.018 599.594 711.761L635.997 655.994C639.587 650.493 641.498 644.066 641.498 637.499V604.687Z" stroke="#F8E2A9" stroke-width="14" stroke-linejoin="round"/>
+    <circle cx="724" cy="643" r="25" fill="#102E34"/>
+    <g transform="rotate(-25 722 754)" stroke="#102E34" stroke-width="28" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M746 698C728 687 699 690 687 714C675 739 691 756 720 756H760"/>
+      <path d="M684 756H758"/>
+      <path d="M705 755C707 784 690 800 654 800H783"/>
+    </g>
+  </g>
+  <path d="M827 170L849.8 223.2L903 246L849.8 268.8L827 322L804.2 268.8L751 246L804.2 223.2L827 170Z" fill="#F8D98D"/>
+  <path d="M210 215L222.8 244.2L252 257L222.8 269.8L210 299L197.2 269.8L168 257L197.2 244.2L210 215Z" fill="#9CE2D0" opacity="0.92"/>
+  <defs>
+    <radialGradient id="bgGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(324 254) rotate(48.2254) scale(965.59)">
+      <stop stop-color="#14575F"/>
+      <stop offset="0.43" stop-color="#0D3338"/>
+      <stop offset="1" stop-color="#071315"/>
+    </radialGradient>
+    <linearGradient id="lensRing" x1="398" y1="458" x2="639" y2="696" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C9FFF0"/>
+      <stop offset="1" stop-color="#4FBDAE"/>
+    </linearGradient>
+    <linearGradient id="tagFill" x1="632" y1="579" x2="852" y2="830" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF4CE"/>
+      <stop offset="1" stop-color="#F7D58E"/>
+    </linearGradient>
+    <filter id="tagShadow" x="562" y="544" width="348" height="348" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="16"/>
+      <feGaussianBlur stdDeviation="16"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.02 0 0 0 0 0.04 0 0 0 0 0.04 0 0 0 0.34 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+  </defs>
+</svg>
