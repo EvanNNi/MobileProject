@@ -1,13 +1,22 @@
-# Luma Landing Page
+﻿# SecondNest Landing Page
 
 This folder contains the static landing page for the CASA0015 final presentation requirement.
 
+The page uses real screenshots extracted from the latest presentation deck and highlights the same narrative as the SecondNest PPT:
+
+- local second-hand exchange for students, renters, movers, and nearby residents
+- GPS-based nearby discovery
+- AI recognition and AI price estimate
+- camera/gallery publishing flow
+- Firebase, OpenAI, Mapbox and Google Sign-In architecture
+- data collection, handling and access control
+
 ## Local preview
 
-Run from the project root:
+Open `index.html` directly in a browser, or run a small local server from this folder:
 
 ```bash
-python3 -m http.server 8080 --directory landing_page
+python -m http.server 8080
 ```
 
 Then open:
@@ -18,10 +27,6 @@ http://localhost:8080
 
 ## Before submission
 
-- Replace the demo placeholder in `index.html` with the final app walkthrough video or GIF.
-- Add the real GitHub repository link once the repository is ready to submit.
-- Add real app screenshots if you want the landing page to show captured screens instead of the current CSS mock phone.
-
-## GitHub Pages
-
-The simplest deployment option is to publish this folder through a GitHub Pages workflow, or copy these files into a Pages source folder such as `docs/` before submission.
+- Replace or supplement the demo section with the final app walkthrough video or GIF.
+- Confirm the GitHub repository URL is correct: `https://github.com/EvanNNi/MobileProject`.
+- Keep screenshots in `assets/screenshots/` so the page remains portable for GitHub Pages.
